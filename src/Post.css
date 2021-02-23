@@ -1,0 +1,107 @@
+@import url(//db.onlinewebfonts.com/c/0376a58122a881d16a294512d3c947b1?family=ProximaNova-Regular);
+
+input:focus{
+    outline: none;
+    border-top: 1px solid rgb(237, 237, 237) !important;
+}
+
+* {
+    font-family: ProximaNova-Regular;
+}
+
+.post {
+    max-width: 600px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    margin-bottom: 45px;
+    border-radius: 4px;
+}
+
+.post__image {
+    width: 100%;
+    object-fit: contain;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+
+.post__text{
+    font-weight: 450;
+    padding: 0 10px 5px 16px;
+    font-size: 15px;
+}
+
+.post__Utext{
+    font-weight: 700;
+    color: rgb(54, 54, 54);
+    font-size: 15px;
+}
+
+.post__header {
+    display: flex;
+    align-items: center;
+    padding:10px !important;
+}
+
+.post__avatar {
+    margin-right: 10px;
+}
+
+.post__header {
+    padding: 20px 10px;
+}
+
+.post__commentbox {
+    display: flex;
+    margin-top: 10px;
+}
+
+.post__input {
+    flex: 1;
+    border: 0;
+    padding: 15px;
+    border-top: 1px solid rgb(237, 237, 237) !important;
+    border-bottom-left-radius: 4px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(85, 85, 85);
+}
+
+.post__button {
+    flex: 0;
+    border: 0;
+    border-top: 1px solid rgb(237, 237, 237);
+    color: #0ba2fa;
+    background-color: white;
+    border-bottom-right-radius: 4px;
+    padding: 0 15px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.post__allcomments{
+    padding: 10px;
+    padding-left: 16px;
+    padding-top: 3px;
+    font-size: 15px;
+    font-weight: 450;
+}
+
+.post__likes{
+    display: flex;
+    /* padding: 20px 10px; */
+}
+
+.post__likecount{
+    padding: 15px 0;
+    color: rgb(54, 54, 54);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+.post__time{
+    font-size: 13px;
+    font-weight: 450;
+    padding-left: 16px;
+    color: rgba(134, 134, 134, 0.795);
+}
