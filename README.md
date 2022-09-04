@@ -1,34 +1,10 @@
-# Getting Started with Instagram Clone App
+#  Instagram Clone App - ReactJS
+Clone of Instagram web app with features like Signup/login authentication, New post uploading, Realtime post liking and commenting.
+Tech stack used : REACT.JS | FIREBASE (Authentication, Firestore) 
+Deployed link [here](https://openinsta.herokuapp.com/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Setup
+Just run the following command to setup the project ```npm install -g``` and update `Firebase.js` file with firebase app credentials.
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm install`
-
-Installs all the dependencies that are required.
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Developer
+[Harsh Soni](https://linkedin.com/in/cscipher)
