@@ -25,13 +25,15 @@ function Login() {
     auth
       .createUserWithEmailAndPassword(email, password)
       .then((authuser) => {
-        db.collection("users").doc(authuser.user.uid).set({
-          Name: name,
-          Email: email,
-          Username: username,
-          likedPosts: [""]
-          // ProfilePic: url,
-        })
+        db.collection("users")
+          .doc(authuser.user.uid)
+          .set({
+            Name: name,
+            Email: email,
+            Username: username,
+            likedPosts: [""],
+            // ProfilePic: url,
+          });
         // const uploadTask = storage.ref(`users/${username}`).put(image);
 
         // uploadTask.on(
@@ -47,20 +49,20 @@ function Login() {
         //     .child(image.name)
         //     .getDownloadURL()
         //     .then((url) => {
-             
+
         //       db.collection("users").doc(authuser.user.uid).set({
         //         Name: name,
         //         Email: email,
         //         Username: username,
         //         ProfilePic: url,
         //       })
-            
+
         //     });
         //   });
 
-          return authuser.user.updateProfile({
-            displayName: name
-          })
+        return authuser.user.updateProfile({
+          displayName: name,
+        });
       })
       .catch((error) => {
         alert(error.message);
@@ -110,7 +112,7 @@ function Login() {
                 <center>
                   <img
                     className="login__headerImage"
-                    src="src\Instagram-Logo.png"
+                    src="https://1000logos.net/wp-content/uploads/2017/02/Logo-Instagram.png"
                     alt=""
                   />
                   <p className="login__desc">
@@ -186,7 +188,7 @@ function Login() {
                 <center>
                   <img
                     className="login__headerImage"
-                    src="src\Instagram-Logo.png"
+                    src="https://1000logos.net/wp-content/uploads/2017/02/Logo-Instagram.png"
                     alt=""
                   />
                 </center>
