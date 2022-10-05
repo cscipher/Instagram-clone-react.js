@@ -106,7 +106,7 @@ function App() {
             <a href="#">
               <img
                 className="app__headerImage"
-                src="src\Instagram-Logo.png"
+                src="https://www.instagram.com/static/images/web/logged_out_wordmark.png/7a252de00b20.png"
                 alt=""
               />
             </a>
